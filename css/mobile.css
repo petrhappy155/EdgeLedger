@@ -1,0 +1,55 @@
+@media(max-width: 500px){
+    #main-nav {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .main-logo {
+        margin-bottom: 1rem;
+    }
+
+    .nav-items {
+        align-items: center;
+    }
+
+    .item {
+        display: flex;
+        text-align: left;
+        flex: 1;
+    }
+    
+    .items {
+        display: block;
+        padding: 1rem;
+        
+    }
+
+   .items i {
+    align-self: center;
+    margin-right: 2rem;
+   }
+
+   .items h3 {
+        align-self: center;
+   }
+
+   #who {
+       display: block;
+   }
+
+   .who-left {
+       display: none;
+   }
+
+   #clients .items {
+       display: flex;
+   }
+
+   #contact {
+       flex-direction: column;
+   }
+
+
+
+}
